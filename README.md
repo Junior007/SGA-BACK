@@ -1,2 +1,4 @@
 # SGA-BACK
-Prácticas DDD
+Prácticas DDD.
+
+Diseño de un gestor de almacenes con dominios
