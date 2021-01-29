@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EntregasDomainCore.Autorizador">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Autorizador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntregasDomainCore.Entrega">
+    <Position X="2.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAo=</HashCode>
+      <FileName>Model\Entrega.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntregasDomainCore.Item">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAAAAAAAAAAAAABAAQAgAAAAAAAAQAAAAg=</HashCode>
+      <FileName>Model\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntregasDomainCore.Usuario">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntregasDomainCore.Receptor">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Autorizador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntregasDomainCore.Pedido">
+    <Position X="4.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAABSAAAAAAAAAQEAAwgAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Model\Pedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EntregasDomainCore.Estados">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Model\EstadosItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
