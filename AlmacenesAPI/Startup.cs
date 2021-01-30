@@ -1,9 +1,9 @@
-using InventoryApplication.Interfaces;
-using InventoryApplication.Service;
-using InventoryData.Context;
-using InventoryData.Repository;
-using InventoryDomain.Interfaces;
-using InventoryDomain.Infra.IoC;
+using Inventory.Application.Interfaces;
+using Inventory.Application.Service;
+using Inventory.Data.Context;
+using Inventory.Data.Repository;
+using Inventory.Domain.Interfaces;
+using Inventory.Infra.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

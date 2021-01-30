@@ -1,16 +1,16 @@
 ﻿
-using InventoryApplication.Interfaces;
-using InventoryApplication.Service;
-using InventoryData.Context;
-using InventoryData.Repository;
-using InventoryDomain.Interfaces;
+using Inventory.Application.Interfaces;
+using Inventory.Application.Service;
+using Inventory.Data.Context;
+using Inventory.Data.Repository;
+using Inventory.Domain.Interfaces;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 using System.Reflection;
 
-namespace InventoryDomain.Infra.IoC
+namespace Inventory.Infra.IoC
 {
     public class DependencyContainer
     {

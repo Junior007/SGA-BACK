@@ -1,13 +1,13 @@
-﻿using InventoryDomain.Interfaces;
+﻿using Inventory.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using InventoryData.Context;
-using InventoryDomain.Model;
+using Inventory.Data.Context;
+using Inventory.Domain.Model;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
-namespace InventoryData.Repository
+namespace Inventory.Data.Repository
 {
     public class InventoryRepository : IInventoryRepository
     {

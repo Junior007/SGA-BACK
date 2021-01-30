@@ -5,11 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\InventoryDomain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MediatR" Version="9.0.0" />
+    <ProjectReference Include="..\Entregas.Data\Entregas.Data.csproj" />
+    <ProjectReference Include="..\EntregasDomainCore\Entregas.Domain.csproj" />
   </ItemGroup>
 
 </Project>

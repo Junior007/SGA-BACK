@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using InventoryDomain.Model;
+using Inventory.Domain.Model;
 
-namespace InventoryDomain.Interfaces
+namespace Inventory.Domain.Interfaces
 {
     public interface IInventoryRepository
     {

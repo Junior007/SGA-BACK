@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace InventoryDomain.Commands
+namespace Inventory.Domain.Commands
 {
     public class DeleteItemCommand : IRequest<bool>
     {

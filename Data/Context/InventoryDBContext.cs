@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using InventoryDomain.Model;
+using Inventory.Domain.Model;
 #nullable disable
 
-namespace InventoryData.Context
+namespace Inventory.Data.Context
 {
     public partial class InventoryDBContext : DbContext
     {

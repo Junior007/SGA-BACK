@@ -10,9 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Aplication\InventoryApplication.csproj" />
-    <ProjectReference Include="..\Data\InventoryData.csproj" />
-    <ProjectReference Include="..\Domain\InventoryDomain.csproj" />
+    <ProjectReference Include="..\Aplication\Inventory.Application.csproj" />
+    <ProjectReference Include="..\Data\Inventory.Data.csproj" />
+    <ProjectReference Include="..\Domain\Inventory.Domain.csproj" />
   </ItemGroup>
 
 </Project>

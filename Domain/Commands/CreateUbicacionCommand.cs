@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace InventoryDomain.Commands
+namespace Inventory.Domain.Commands
 {
     public class CreateUbicacionCommand : IRequest<bool>
     {

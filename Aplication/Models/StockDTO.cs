@@ -1,4 +1,4 @@
-﻿namespace InventoryApplication.Models
+﻿namespace Inventory.Application.Models
 {
     public class StockDTO
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace InventoryDomain.Model
+namespace Inventory.Domain.Model
 {
     public partial class Almacen
     {

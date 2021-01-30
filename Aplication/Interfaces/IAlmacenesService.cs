@@ -1,11 +1,11 @@
-﻿using InventoryApplication.Models;
-using InventoryDomain.Commands;
-using InventoryDomain.Model;
+﻿using Inventory.Application.Models;
+using Inventory.Domain.Commands;
+using Inventory.Domain.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace InventoryApplication.Interfaces
+namespace Inventory.Application.Interfaces
 {
     public interface IAlmacenesService
     {

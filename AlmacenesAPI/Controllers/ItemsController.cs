@@ -1,12 +1,12 @@
-﻿using InventoryDomain.Model;
+﻿using Inventory.Domain.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using InventoryApplication.Interfaces;
-using InventoryApplication.Models;
+using Inventory.Application.Interfaces;
+using Inventory.Application.Models;
 
 namespace InventoryAPI.Controllers
 {

@@ -24,8 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Aplication\InventoryApplication.csproj" />
-    <ProjectReference Include="..\IoC\IoC.csproj" />
+    <ProjectReference Include="..\Aplication\Inventory.Application.csproj" />
+    <ProjectReference Include="..\IoC\Inventory.Infra.IoC.csproj" />
   </ItemGroup>
 
   <ItemGroup>

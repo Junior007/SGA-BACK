@@ -1,15 +1,15 @@
-﻿using InventoryDomain.Interfaces;
-using InventoryApplication.Interfaces;
+﻿using Inventory.Domain.Interfaces;
+using Inventory.Application.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using MediatR;
-using InventoryApplication.Models;
-using InventoryDomain.Commands;
-using InventoryDomain.Model;
+using Inventory.Application.Models;
+using Inventory.Domain.Commands;
+using Inventory.Domain.Model;
 
-namespace InventoryApplication.Service
+namespace Inventory.Application.Service
 {
     public class ItemsService : IItemsService
     {

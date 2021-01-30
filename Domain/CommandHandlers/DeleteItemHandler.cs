@@ -1,6 +1,6 @@
-﻿using InventoryDomain.Commands;
-using InventoryDomain.Interfaces;
-using InventoryDomain.Model;
+﻿using Inventory.Domain.Commands;
+using Inventory.Domain.Interfaces;
+using Inventory.Domain.Model;
 using MediatR;
 
 using System;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace InventoryDomain.CommandHandlers
+namespace Inventory.Domain.CommandHandlers
 {
     public class DeleteItemHandler : IRequestHandler<DeleteItemCommand, bool>
     {

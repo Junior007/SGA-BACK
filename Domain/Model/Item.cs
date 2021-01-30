@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace InventoryDomain.Model
+namespace Inventory.Domain.Model
 {
     public partial class Item
     {

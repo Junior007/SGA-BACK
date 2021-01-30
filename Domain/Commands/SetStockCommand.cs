@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InventoryDomain.Commands
+namespace Inventory.Domain.Commands
 {
     public class SetStockCommand : IRequest<bool>
     {
