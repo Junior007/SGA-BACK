@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entregas.Domain.Model
+namespace Entregas.Application.Interfaces
 {
-    /*
-    public class Estado {
-        public EstadoEnum estado{get;set;}
-    }*/
+    public interface IEntregasService
+    {
+    }
 }

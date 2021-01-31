@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntregasDomainCore
+namespace Entregas.Domain.Model
 {
     public abstract class Usuario
     {
-        public string Id { get; internal set; }
+        public int Id { get; internal set; }
         public string Nombre { get; internal set; }
     }
 }

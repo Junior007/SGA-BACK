@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entregas.Data\Entregas.Data.csproj" />
+    <ProjectReference Include="..\EntregasApp\Entregas.Application.csproj" />
+    <ProjectReference Include="..\EntregasDomainCore\Entregas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

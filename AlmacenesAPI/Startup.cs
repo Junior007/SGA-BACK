@@ -54,7 +54,8 @@ namespace InventoryDomainModel
                     IgnoreReadOnlyProperties = true,
                     ReferenceHandler.Preserve = true
                 }*/
-            DependencyContainer.RegisterServices(services);
+            Inventory.Infra.IoC.DependencyContainer.RegisterServices(services);
+            Entregas.Infraestructura.IoC.DependencyContainer.RegisterServices(services);
 
         }
 

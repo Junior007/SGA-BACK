@@ -13,6 +13,9 @@
     <ProjectReference Include="..\Aplication\Inventory.Application.csproj" />
     <ProjectReference Include="..\Data\Inventory.Data.csproj" />
     <ProjectReference Include="..\Domain\Inventory.Domain.csproj" />
+    <ProjectReference Include="..\Entregas.Data\Entregas.Data.csproj" />
+    <ProjectReference Include="..\EntregasApp\Entregas.Application.csproj" />
+    <ProjectReference Include="..\EntregasDomainCore\Entregas.Domain.csproj" />
   </ItemGroup>
 
 </Project>

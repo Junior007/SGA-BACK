@@ -25,6 +25,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Aplication\Inventory.Application.csproj" />
+    <ProjectReference Include="..\Entregas.Infraestructura.IoC\Entregas.Infraestructura.IoC.csproj" />
+    <ProjectReference Include="..\EntregasApp\Entregas.Application.csproj" />
     <ProjectReference Include="..\IoC\Inventory.Infra.IoC.csproj" />
   </ItemGroup>
 

@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntregasDomainCore
+namespace Entregas.Domain.Model
 {
     public class Item
     {
-        public string Id { get; internal set; }
+        public int Id { get; internal set; }
+        public int? PedidoId { get; internal set; }
         public string Descripcion { get; internal set; }
         public Estados Estado { get; internal set; }
         public int Cantidad { get; internal set; }

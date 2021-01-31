@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntregasDomainCore
+namespace Entregas.Domain.Model
 {
     public enum Estados
     {

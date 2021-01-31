@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntregasDomainCore
+namespace Entregas.Domain.Model
 {
     public class Pedido
     {
-        public Int64 Id { get; internal set; }
+        public int Id { get; internal set; }
+        public int? EntregaId { get; internal set; }
         public Autorizador AutorizadoPor { get; internal set; }
         public DateTime? FechaAutorizado { get; internal set; }
         public Receptor SolicitadoPor { get; internal set; }
