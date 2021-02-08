@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Entregas.Domain.Model;
 #nullable disable
 
-namespace Entregas.Data.Context
+namespace Entregas.Domain.Context
 {
     public partial class EntregasDBContext : DbContext
     {

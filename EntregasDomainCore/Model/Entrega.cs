@@ -8,7 +8,7 @@ namespace Entregas.Domain.Model
     public class Entrega
     {
         public int Id { get; internal set; }
-        public Receptor RecibidoPor { get; internal set; }
+        public Usuario RecibidoPor { get; internal set; }
         public Estados Estado
         {
             get
@@ -34,7 +34,7 @@ namespace Entregas.Domain.Model
             Pedidos.Add(orden);
         }
 
-        public void Entregar(Receptor receptor)
+        public void Entregar(Usuario receptor)
         {
             if (RecibidoPor != null)
                 throw new Exception("La entrega ya se realizó");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entregas.Domain.Model
 {
-    public abstract class Usuario
+    public class Usuario
     {
         public int Id { get; internal set; }
         public string Nombre { get; internal set; }

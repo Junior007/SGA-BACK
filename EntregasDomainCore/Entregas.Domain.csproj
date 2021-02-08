@@ -10,4 +10,8 @@
     <None Remove="Interfaces\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Include="Interfaces\IEntregasRepository.cs" />
+  </ItemGroup>
+
 </Project>

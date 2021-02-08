@@ -1,9 +1,9 @@
 ﻿
 using Entregas.Application.Interfaces;
 using Entregas.Application.Service;
-using Entregas.Data.Context;
-using Entregas.Data.Interface;
-using Entregas.Data.Repository;
+using Entregas.Domain.Context;
+using Entregas.Domain.Interface;
+using Entregas.Domain.Repository;
 
 
 using Microsoft.Extensions.DependencyInjection;

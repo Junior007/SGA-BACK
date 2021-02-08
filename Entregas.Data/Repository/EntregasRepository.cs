@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Entregas.Data.Context;
+using Entregas.Domain.Context;
 using Entregas.Domain.Model;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using Entregas.Data.Interface;
+using Entregas.Domain.Interface;
 
-namespace Entregas.Data.Repository
+namespace Entregas.Domain.Repository
 {
     public class EntregasRepository : IEntregasRepository
     {
@@ -17,10 +17,21 @@ namespace Entregas.Data.Repository
             _ctx = ctx;
         }
 
+        public void CrearPedido(Pedido pedido)
+        {
+            _ctx.Pedidos.Add(pedido);
+        }
+
+        public Usuario ObtenerUsuario(int usuarioId)
+        {
+            return _ctx.Usuarios.Find(usuarioId);
+        }
+
         public int SaveChanges()
         {
             return _ctx.SaveChanges();
         }
+
         //
         /*public void CreateAlmacen(Almacen almacen)
         {

@@ -1,4 +1,5 @@
 ﻿using Entregas.Application.Interfaces;
+using Entregas.Application.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace GestionTablasAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api")]
     [ApiController]
     public class EntregasController : ControllerBase
     {
@@ -18,6 +19,22 @@ namespace GestionTablasAPI.Controllers
         {
             _entregasService = entregasService;
             //_mapper = mapper;
+        }
+        [Route("pedidos")]
+        [HttpPost]
+        public ActionResult PostPedido([FromBody] PedidoForCreate pedidoForCreate)
+        {
+
+            try
+            {
+                _entregasService.CrearPedido(pedidoForCreate);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

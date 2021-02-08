@@ -1,23 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Entregas.Domain.Model.Autorizador">
-    <Position X="0.5" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Model\Autorizador.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Entregas.Domain.Model.Entrega">
     <Position X="2.5" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAo=</HashCode>
+      <HashCode>AAACAAQAAAAAAAAAAgAAAAAAAAAAAAEACAAAAAAAAAg=</HashCode>
       <FileName>Model\Entrega.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Entregas.Domain.Model.Item">
     <Position X="8" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAEAAAAAAAAAAAAAAAABAAQAgAAAAAAAAQAAAAg=</HashCode>
+      <HashCode>AAACAAEAAAAAAAAAAAAAAAAJAAQAgAAAAAAAAQAAAAg=</HashCode>
       <FileName>Model\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -28,17 +21,10 @@
       <FileName>Model\Usuario.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Entregas.Domain.Model.Receptor">
-    <Position X="1.5" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Model\Autorizador.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Entregas.Domain.Model.Pedido">
     <Position X="4.75" Y="0.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAACCAAAAAABSAAAAAAAAAQEAAwgAAAAAAAAAAAAIAA=</HashCode>
+      <HashCode>AAACCAAAAAABTAAAAAAAAAQEAAwgAAAAAAAAAAAAIAA=</HashCode>
       <FileName>Model\Pedido.cs</FileName>
     </TypeIdentifier>
   </Class>

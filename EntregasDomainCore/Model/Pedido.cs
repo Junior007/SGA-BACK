@@ -8,11 +8,16 @@ namespace Entregas.Domain.Model
 {
     public class Pedido
     {
+        /*public Pedido(Usuario solicitadoPor)
+        {
+            SolicitadoPor = solicitadoPor;
+        }*/
         public int Id { get; internal set; }
         public int? EntregaId { get; internal set; }
-        public Autorizador AutorizadoPor { get; internal set; }
+        public Usuario AutorizadoPor { get; internal set; }
         public DateTime? FechaAutorizado { get; internal set; }
-        public Receptor SolicitadoPor { get; internal set; }
+        //public Usuario SolicitadoPor { get; internal set; }
+        public Usuario SolicitadoPor { get;  set; }
         public DateTime? FechaCompletado { get; internal set; }
         public Estados EstadoDeEntrega
         {
@@ -32,21 +37,21 @@ namespace Entregas.Domain.Model
                 throw new Exception("El item ya existe en la entrega");
             Items.Add(item);
         }
-        public void Completar(Autorizador usuario)
+        public void Completar(Usuario autorizador)
         {
-            if (SolicitadoPor.Id != usuario.Id)
+            if (SolicitadoPor.Id != autorizador.Id)
                 throw new Exception("El pedido pertenece a otra persona");
-            AutorizadoPor = usuario;
+            AutorizadoPor = autorizador;
             FechaAutorizado = DateTime.Now;
         }
-        public void Autorizar(Autorizador usuario)
+        public void Autorizar(Usuario autorizador)
         {
             if (FechaCompletado != null)
                 throw new Exception("Éste pedido aún se está completando");
             if (FechaAutorizado!=null)
                 throw new Exception("Éste pedido ya se autorizó");
 
-            AutorizadoPor = usuario;
+            AutorizadoPor = autorizador;
             FechaAutorizado = DateTime.Now;
 
         }
